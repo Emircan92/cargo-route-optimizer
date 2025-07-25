@@ -94,3 +94,14 @@ if st.button("Find Best Route"):
 
         except nx.NetworkXNoPath:
             st.error("No path found between the selected cities.")
+
+st.markdown(
+    """
+    <hr style="margin-top: 2em; margin-bottom: 0.5em;">
+    <div style="text-align: center; font-size: 0.85em; color: #888;">
+        Made with ❤️ using <a href="https://streamlit.io" target="_blank" style="color: #6A0DAD;">Streamlit</a> |
+        <a href="https://github.com/Emircan92/cargo-route-optimizer" target="_blank" style="color: #6A0DAD;">View on GitHub</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
