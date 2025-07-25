@@ -5,8 +5,7 @@ Built with 🐍 Python and ⚡ [Streamlit](https://streamlit.io), it uses Dijkst
 
 ## 🚀 Live Demo
 
-🔗 [Launch the App](https://your-username-cargo-route-optimizer.streamlit.app)  
-_(Replace with your actual Streamlit Cloud URL after deploy)_
+🔗 [Launch the App](https://cargo-route-optimizer.streamlit.app/)
 
 ## ✨ Features
 
@@ -31,7 +30,7 @@ _(Replace with your actual Streamlit Cloud URL after deploy)_
 ```
 .
 ├── app.py                # Main Streamlit app
-├── final_data.json       # Cities, hubs, and routes
+├── data.json             # Cities, hubs, and routes
 ├── requirements.txt      # Dependencies
 └── README.md             # You're reading it
 ```
@@ -39,7 +38,7 @@ _(Replace with your actual Streamlit Cloud URL after deploy)_
 ## ⚙️ Setup Locally (Optional)
 
 ```bash
-git clone https://github.com/your-username/cargo-route-optimizer.git
+git clone https://github.com/Emircan92/cargo-route-optimizer.git
 cd cargo-route-optimizer
 pip install -r requirements.txt
 streamlit run app.py
