@@ -1,0 +1,465 @@
+{
+  "countries": [
+    {
+      "name": "Turkey",
+      "cities": [
+        {
+          "name": "Istanbul",
+          "is_hub": true,
+          "coords": [
+            41.0082,
+            28.9784
+          ]
+        },
+        {
+          "name": "Ankara",
+          "is_hub": false,
+          "coords": [
+            39.9208,
+            32.8541
+          ]
+        },
+        {
+          "name": "Izmir",
+          "is_hub": false,
+          "coords": [
+            38.4192,
+            27.1287
+          ]
+        },
+        {
+          "name": "Antalya",
+          "is_hub": false,
+          "coords": [
+            36.8969,
+            30.7133
+          ]
+        },
+        {
+          "name": "Gaziantep",
+          "is_hub": false,
+          "coords": [
+            37.0662,
+            37.3833
+          ]
+        },
+        {
+          "name": "Bursa",
+          "is_hub": false,
+          "coords": [
+            40.1828,
+            29.066
+          ]
+        },
+        {
+          "name": "Adana",
+          "is_hub": false,
+          "coords": [
+            37.0,
+            35.3213
+          ]
+        },
+        {
+          "name": "Kayseri",
+          "is_hub": false,
+          "coords": [
+            38.7225,
+            35.4875
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "cities": [
+        {
+          "name": "Berlin",
+          "is_hub": false,
+          "coords": [
+            52.52,
+            13.405
+          ]
+        },
+        {
+          "name": "Frankfurt",
+          "is_hub": true,
+          "coords": [
+            50.1109,
+            8.6821
+          ]
+        },
+        {
+          "name": "Munich",
+          "is_hub": false,
+          "coords": [
+            48.1351,
+            11.582
+          ]
+        },
+        {
+          "name": "Hamburg",
+          "is_hub": false,
+          "coords": [
+            53.5511,
+            9.9937
+          ]
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "cities": [
+        {
+          "name": "Paris",
+          "is_hub": true,
+          "coords": [
+            48.8566,
+            2.3522
+          ]
+        },
+        {
+          "name": "Lyon",
+          "is_hub": false,
+          "coords": [
+            45.764,
+            4.8357
+          ]
+        },
+        {
+          "name": "Marseille",
+          "is_hub": false,
+          "coords": [
+            43.2965,
+            5.3698
+          ]
+        },
+        {
+          "name": "Bordeaux",
+          "is_hub": false,
+          "coords": [
+            44.8378,
+            -0.5792
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "cities": [
+        {
+          "name": "Rome",
+          "is_hub": false,
+          "coords": [
+            41.9028,
+            12.4964
+          ]
+        },
+        {
+          "name": "Milan",
+          "is_hub": true,
+          "coords": [
+            45.4642,
+            9.19
+          ]
+        },
+        {
+          "name": "Naples",
+          "is_hub": false,
+          "coords": [
+            40.8518,
+            14.2681
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Spain",
+      "cities": [
+        {
+          "name": "Madrid",
+          "is_hub": true,
+          "coords": [
+            40.4168,
+            -3.7038
+          ]
+        },
+        {
+          "name": "Barcelona",
+          "is_hub": false,
+          "coords": [
+            41.3851,
+            2.1734
+          ]
+        },
+        {
+          "name": "Valencia",
+          "is_hub": false,
+          "coords": [
+            39.4699,
+            -0.3763
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "cities": [
+        {
+          "name": "Amsterdam",
+          "is_hub": true,
+          "coords": [
+            52.3676,
+            4.9041
+          ]
+        },
+        {
+          "name": "Rotterdam",
+          "is_hub": false,
+          "coords": [
+            51.9244,
+            4.4777
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Others",
+      "cities": [
+        {
+          "name": "Sofia",
+          "is_hub": false,
+          "coords": [
+            42.6977,
+            23.3219
+          ]
+        },
+        {
+          "name": "Belgrade",
+          "is_hub": false,
+          "coords": [
+            44.7866,
+            20.4489
+          ]
+        },
+        {
+          "name": "Budapest",
+          "is_hub": false,
+          "coords": [
+            47.4979,
+            19.0402
+          ]
+        },
+        {
+          "name": "Vienna",
+          "is_hub": true,
+          "coords": [
+            48.2082,
+            16.3738
+          ]
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "from": "Istanbul",
+      "to": "Ankara",
+      "distance": 450
+    },
+    {
+      "from": "Istanbul",
+      "to": "Izmir",
+      "distance": 480
+    },
+    {
+      "from": "Istanbul",
+      "to": "Bursa",
+      "distance": 155
+    },
+    {
+      "from": "Bursa",
+      "to": "Izmir",
+      "distance": 330
+    },
+    {
+      "from": "Ankara",
+      "to": "Kayseri",
+      "distance": 320
+    },
+    {
+      "from": "Kayseri",
+      "to": "Adana",
+      "distance": 310
+    },
+    {
+      "from": "Adana",
+      "to": "Gaziantep",
+      "distance": 225
+    },
+    {
+      "from": "Gaziantep",
+      "to": "Ankara",
+      "distance": 610
+    },
+    {
+      "from": "Antalya",
+      "to": "Izmir",
+      "distance": 460
+    },
+    {
+      "from": "Antalya",
+      "to": "Adana",
+      "distance": 475
+    },
+    {
+      "from": "Berlin",
+      "to": "Hamburg",
+      "distance": 290
+    },
+    {
+      "from": "Berlin",
+      "to": "Frankfurt",
+      "distance": 545
+    },
+    {
+      "from": "Hamburg",
+      "to": "Frankfurt",
+      "distance": 500
+    },
+    {
+      "from": "Frankfurt",
+      "to": "Munich",
+      "distance": 400
+    },
+    {
+      "from": "Paris",
+      "to": "Lyon",
+      "distance": 465
+    },
+    {
+      "from": "Lyon",
+      "to": "Marseille",
+      "distance": 315
+    },
+    {
+      "from": "Paris",
+      "to": "Frankfurt",
+      "distance": 480
+    },
+    {
+      "from": "Paris",
+      "to": "Berlin",
+      "distance": 1050
+    },
+    {
+      "from": "Bordeaux",
+      "to": "Paris",
+      "distance": 580
+    },
+    {
+      "from": "Milan",
+      "to": "Rome",
+      "distance": 570
+    },
+    {
+      "from": "Rome",
+      "to": "Naples",
+      "distance": 230
+    },
+    {
+      "from": "Milan",
+      "to": "Frankfurt",
+      "distance": 650
+    },
+    {
+      "from": "Milan",
+      "to": "Lyon",
+      "distance": 450
+    },
+    {
+      "from": "Rome",
+      "to": "Marseille",
+      "distance": 880
+    },
+    {
+      "from": "Madrid",
+      "to": "Barcelona",
+      "distance": 620
+    },
+    {
+      "from": "Barcelona",
+      "to": "Valencia",
+      "distance": 350
+    },
+    {
+      "from": "Valencia",
+      "to": "Madrid",
+      "distance": 360
+    },
+    {
+      "from": "Madrid",
+      "to": "Bordeaux",
+      "distance": 690
+    },
+    {
+      "from": "Amsterdam",
+      "to": "Rotterdam",
+      "distance": 75
+    },
+    {
+      "from": "Amsterdam",
+      "to": "Frankfurt",
+      "distance": 440
+    },
+    {
+      "from": "Amsterdam",
+      "to": "Paris",
+      "distance": 510
+    },
+    {
+      "from": "Rotterdam",
+      "to": "Berlin",
+      "distance": 670
+    },
+    {
+      "from": "Istanbul",
+      "to": "Sofia",
+      "distance": 550
+    },
+    {
+      "from": "Sofia",
+      "to": "Belgrade",
+      "distance": 390
+    },
+    {
+      "from": "Belgrade",
+      "to": "Budapest",
+      "distance": 320
+    },
+    {
+      "from": "Budapest",
+      "to": "Vienna",
+      "distance": 220
+    },
+    {
+      "from": "Vienna",
+      "to": "Munich",
+      "distance": 400
+    },
+    {
+      "from": "Vienna",
+      "to": "Milan",
+      "distance": 870
+    },
+    {
+      "from": "Munich",
+      "to": "Lyon",
+      "distance": 730
+    },
+    {
+      "from": "Lyon",
+      "to": "Paris",
+      "distance": 465
+    }
+  ]
+}
